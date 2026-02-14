@@ -1,8 +1,8 @@
 import requests
 import pandas as pd
 
-CHANNEL_ID = "2420345"
-READ_KEY = "MTKXHOTLMKL75UV4"
+CHANNEL_ID = "*******"
+READ_KEY = "********"
 
 url = f"https://api.thingspeak.com/channels/{CHANNEL_ID}/feeds.json?api_key={READ_KEY}&results=8000"
 
